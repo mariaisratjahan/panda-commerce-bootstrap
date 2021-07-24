@@ -9,12 +9,14 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="">
                 </a>
@@ -42,8 +44,8 @@
             </div>
         </nav>
         <!-- image slider -->
-      <section class="container bg-info">
-        <div id="carouselExampleControls" class="carousel slide p-4" data-bs-ride="carousel">
+      <section class="container panda-bg-info slider rounded-3">
+        <div id="carouselExampleControls" class="carousel slide p-5 " data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                   <div class="row d-flex align-items-center">
@@ -51,7 +53,8 @@
                           <h1>Cool Dude Headphone</h1>
                           <p>
                             This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                            <button class="btn btn-primary">Buy NOW</button>
+                            <h2 style="color:#FF136F;font-size: 40px;">$350</h2>
+                            <button class="btn panda-btn">Buy NOW</button>
 
                       </div>
                       <div class="col-lg-5">
@@ -66,7 +69,8 @@
                         <h1>Mega LCD TV For Sports</h1>
                         <p>
                             This is the best tv in the world for people who just want to waste time in front of tv.</p>
-                          <button class="btn btn-primary">Buy NOW</button>
+                            <h2 style="color:#FF136F;font-size: 40px;">$650</h2>
+                          <button class="btn panda-btn">Buy NOW</button>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -79,7 +83,8 @@
                         <h1>X-Box for  your living room</h1>
                         <p>
                         This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
-                          <button class="btn btn-primary">Buy NOW</button>
+                        <h2 style="color:#FF136F;font-size: 40px;">$550</h2>
+                          <button class="btn panda-btn">Buy NOW</button>
                     </div>
                     <div class="col-lg-5">
                       <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -102,7 +107,7 @@
     <!-- main start -->
     <main>
       <!-- categories -->
-      <section class="container my-5">
+      <section class="container my-5 py-5">
           <div class="row g-5">
             <div class="col-lg-4 col-md-6 col-12">
               <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
@@ -138,7 +143,7 @@
               </div>
               <h2 class="m-3">$120</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
@@ -151,7 +156,7 @@
               </div>
               <h2 class="m-3">$320</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
@@ -164,7 +169,7 @@
               </div>
               <h2 class="m-3">$350</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
@@ -183,7 +188,7 @@
               </div>
               <h2 class="m-3">$120</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
@@ -196,7 +201,7 @@
               </div>
               <h2 class="m-3">$320</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
@@ -209,20 +214,20 @@
               </div>
               <h2 class="m-3">$350</h2>
               <div class="m-3">
-                <div class="btn btn-primary">Buy Now</div>
+                <div class="btn panda-btn">Buy Now</div>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- subscribe section -->
-      <section style="height: 300px;" class="container bg-info d-flex justify-content-center align-items-center" id="subscribe">
+      <section style="height: 300px;" class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3" id="subscribe">
        <div>
         <h2>LET'S STAY IN TOUCH</h2>
         <p>Get updates on sales, specials and more</p>
-        <input type="text">
+        <input type="text"  class="form-control">
         <br>
-        <div class="btn btn-primary">SUBMIT</div>
+        <div class="btn panda-btn">SUBMIT</div>
        </div>
       </section>
 
